@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Groep B</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="main_page.js"></script>
+</head>
+<body>
+	<div class="row">
+		
+	<div class="col-12">
+	<div class="usertab">
+		<!-- witte ruimte naast naam : user is plaats voor het logo!-->
+		<div id="logodesktop"></div>
+			User: Remi Blaton
+	</div>
+		<div id="tijd" onload="showTime()">
+					</div>
+		</div>
+		
+	</div>
+	 
+<div class="row">
+	<div class="col-12">
+		
+		<!-- VENSTERS DIE OPEN EN DICHT MOETEN MOGEN NIET IN DE DIV ZITTEN DIE ZE OPROEPT!-->
+		
+		<div class="folders" id="buttonwerk" onClick="dubbelClick('folderwerk')" ondblClick="openDiv('tabwerk','folderwerk')">
+			<div class="foldername" id="folderwerk">Werk</div>
+		</div>
+		
+		
+		<div class="folders" id="buttonover" onClick="dubbelClick('folderover')" ondblClick="openDiv('tabover','folderover')">
+			<div class="foldername" id="folderover">Over</div>
+		</div>
+		
+		
+		
+		<div class="tabsfile" id="tabwerk">
+			<div class="venster3">
+						<button class="closetab" onClick="closeDiv('tabwerk')">X</button>
+			PC - Werk
+			
+			<div class="folders" id="map1" onClick="dubbelClick('folderwerk1')" ondblClick="openDiv('werk1','folderwerk1')">
+				<div class="foldername" id="folderwerk1">GRAVO</div>
+			</div>
+			<div class="folders" id="map2" onClick="dubbelClick('folderwerk2')" ondblClick="openDiv('werk2','folderwerk2')">
+				<div class="foldername" id="folderwerk2">AVIVO</div>
+			</div>
+			<div class="folders" id="map3" onClick="dubbelClick('folderwerk3')" ondblClick="openDiv('werk3','folderwerk3')">
+				<div class="foldername" id="folderwerk3">VA</div>
+			</div>	
+				
+			<!-- Grafische vorming -->
+		
+		<div id="werk1">
+		<div class="venster2">
+			<button class="closetab" onClick="closeDiv('werk1')">X</button>	
+			PC - Werk - Grafische vorming
+			<div class="sidebar">
+				<button class="projectnaam" onClick="openVideo('opdr1','opdr2','opdr3','opdr4','opdr5','opdr6','opdr7')">Merkidentiteit</button>
+				<button class="projectnaam" onClick="openVideo('opdr2','opdr1','opdr3','opdr4','opdr5','opdr6','opdr7')">Carousselfoto</button>
+				<button class="projectnaam" onClick="openVideo('opdr3','opdr1','opdr2','opdr4','opdr5','opdr6','opdr7')">Gedicht ontwerp</button>
+				<button class="projectnaam" onClick="openVideo('opdr4','opdr1','opdr2','opdr3','opdr5','opdr6','opdr7')">LP cover</button>
+				<button class="projectnaam" onClick="openVideo('opdr5','opdr1','opdr2','opdr3','opdr4','opdr6','opdr7')">Kerstkaart</button>
+				<button class="projectnaam" onClick="openVideo('opdr6','opdr1','opdr2','opdr3','opdr4','opdr5','opdr7')">Recept lay-out</button>
+				<button class="projectnaam" onClick="openVideo('opdr7','opdr1','opdr2','opdr3','opdr4','opdr5','opdr6')">Ontwerp linosnede</button>
+			</div>
+			
+			<div class="informatie">
+					<!-- <id> voor afbeeldingen en <video> voor videos!-->
+					<id id="opdr1">
+						<h1>Merkidentiteit</h1>
+						<div class="player">
+							<video id="opdr1.1" src="">
+							
+							</video>
+						</div>
+					</id>
+					<id id="opdr2">
+						<h1>Carousselfoto</h1>
+						<div class="player">
+							<video id="opdr2.1" src="">
+							
+							</video>
+						</div>
+					</id>
+					<id id="opdr3">
+						<h1>Gedicht ontwerp</h1>
+						<div class="player">
+							<video id="opdr3.1" src="">
+							
+							</video>
+						</div>
+					</id>
+					<id id="opdr4">
+						<h1>LP cover</h1>
+						<div class="player">
+							<video id="opdr4.1" src="">
+							
+							</video>
+						</div>
+					</id>
+					<id id="opdr5">
+						<h1>Kerstkaart</h1>
+						<div class="player">
+							<video id="opdr5.1" src="">
+							
+							</video>
+						</div>
+					</id>
+					<id id="opdr6">
+						<h1>Recept lay-out</h1>
+						<div class="player">
+							<video id="opdr6.1" src="">
+							
+							</video>
+						</div>
+					</id>
+					<id id="opdr7">
+						<h1>Ontwerp linosnede</h1>
+						<div class="player">
+							<video id="opdr7.1" src="">
+							
+							</video>
+						</div>
+					</id>
+			</div>
+		</div>
+	</div>
+			
+	<div id="werk2">
+				
+				<!-- Audiovisuele vorming -->
+
+		<div class="venster2">
+			<button class="closetab" onClick="closeDiv('werk2')">X</button>
+			PC - Werk - Audiovisuele vorming
+			<div class="sidebar">
+				<button class="projectnaam" onClick="openVideo('opdr1.2','opdr2.2','opdr3.2','opdr4.2','opdr5.2','opdr6.2','opdr7.2')">Reclamespot</button>
+				<button class="projectnaam" onClick="openVideo('opdr2.2','opdr1.2','opdr3.2','opdr4.2','opdr5.2','opdr6.2','opdr7.2')">Cinemagraphs</button>
+				<button class="projectnaam" onClick="openVideo('opdr3.2','opdr1.2','opdr2.2','opdr4.2','opdr5.2','opdr6.2','opdr7.2')">Montage animaties</button>
+				<button class="projectnaam" onClick="openVideo('opdr4.2','opdr1.2','opdr2.2','opdr3.2','opdr5.2','opdr6.2','opdr7.2')">Hearing Tarantino</button>
+				<button class="projectnaam" onClick="openVideo('opdr5.2','opdr1.2','opdr2.2','opdr3.2','opdr4.2','opdr6.2','opdr7.2')">Wandelcyclus</button>
+				<button class="projectnaam" onClick="openVideo('opdr6.2','opdr1.2','opdr2.2','opdr3.2','opdr4.2','opdr5.2','opdr7.2')">Take-a-Picture</button>
+				<button class="projectnaam" onClick="openVideo('opdr7.2','opdr1.2','opdr2.2','opdr3.2','opdr4.2','opdr5.2','opdr6.2')">Foley</button>
+			</div>
+			
+			<div class="informatie">
+					<!-- <id> voor afbeeldingen en <video> voor videos!-->
+					<id id="opdr1.2">
+						<h1>Reclamespot</h1>
+						<div class="player">
+							<video id="opdr.1.2.1" width="320" height="240" controls>
+								<source src="VID/Remi_ReclamespotKoffie_6CM.mp4" type="video/mp4">	
+							</video>
+						</div>
+					</id>
+					<id id="opdr2.2">
+						<h1>Cinemagraphs</h1>
+						<div class="player">
+							<video id="opdr2.2.1" src="">
+							
+							</video>
+						</div>
+					</id>
+					<id id="opdr3.2">
+						<h1>Montage animaties</h1>
+						<div class="player">
+							<video id="opdr3.2.1" src="">
+						
+							</video>
+						</div>
+					</id>
+					<id id="opdr4.2">
+						<h1>Hearing Tarantino</h1>
+						<div class="player">
+							<video id="opdr4.2.1" src="">
+						
+							</video>
+						</div>
+					</id>
+					<id id="opdr5.2">
+						<h1>Wandelcyclus</h1>
+							<div class="player">
+								<video id="opdr5.2.1" src="">
+
+								</video>
+							</div>	
+					</id>
+					<id id="opdr6.2">
+						<h1>Take-a-Picture</h1>
+							<div class="player">
+								<video id="opdr6.2.1" src="">
+
+								</video>
+							</div>	
+					</id>
+					<id id="opdr7.2">
+					<h1>Foley</h1>
+							<div class="player">
+								<video id="opdr7.2.1" src="">
+
+								</video>
+							</div>	
+					</id>
+			</div>
+	
+		</div>
+	</div>
+		
+				<!-- Voice acting -->
+				
+			<div id="werk3">
+				<div id="voiceacting">
+					<div class="venster2">
+						<button class="closetab" onClick="closeDiv('werk3')">X </button>	
+						PC - Werk - Voice acting
+						<div class="sidebar">
+							<button class="projectnaam" onClick="openVideo('opdr1.3','opdr2.3','opdr3.3','opdr4.3','opdr5.3')">B Block</button>
+							<button class="projectnaam" onClick="openVideo('opdr2.3','opdr1.3','opdr3.3','opdr4.3','opdr5.3')">Boxbot</button>
+							<button class="projectnaam" onClick="openVideo('opdr3.3','opdr1.3','opdr2.3','opdr4.3','opdr5.3')">Danger Sign</button>
+							<button class="projectnaam" onClick="openVideo('opdr4.3','opdr1.3','opdr2.3','opdr3.3','opdr5.3')">Doorstopper</button>
+							<button class="projectnaam" onClick="openVideo('opdr5.3','opdr1.3','opdr2.3','opdr3.3','opdr4.3')">Paper Towel Roll Jr.</button>
+						</div>
+
+						<div class="informatie">
+							<id id="opdr1.3">
+							<div class="parentFotoBeschrijvingVA">
+								<div class="afbeeldingPersonage">
+									<div id="bblockImg"></div>
+								</div>
+								<div class="beschrijvingPersonage">
+									<b>B Block</b><br><i>Animatic Battle</i>
+								</div>
+							</div>
+							</id>
+							<id id="opdr2.3">
+							<div class="parentFotoBeschrijvingVA">
+								<div class="afbeeldingPersonage">
+									<div id="boxbotImg"></div>
+								</div>
+								<div class="beschrijvingPersonage">
+									<b>Boxbot</b><br><i>My Cool Show</i>
+								</div>
+							</div>
+							</id>
+							<id id="opdr3.3">
+							<div class="parentFotoBeschrijvingVA">
+								<div class="afbeeldingPersonage">
+									<div id="dsignImg"></div>
+								</div>
+								<div class="beschrijvingPersonage">
+									<b>Danger Sign</b><br><i>Animatic Battle</i>
+								</div>
+							</div>
+							</id>
+							<id id="opdr4.3">
+							<div class="parentFotoBeschrijvingVA">
+								<div class="afbeeldingPersonage">
+									<div id="dstopperImg"></div>
+								</div>
+								<div class="beschrijvingPersonage">
+									<b>Doorstopper</b><br><i>Animatic Battle</i>
+								</div>
+							</div>
+							</id>
+							<id id="opdr5.3">
+							<div class="parentFotoBeschrijvingVA">
+								<div class="afbeeldingPersonage">
+									<div id="ptrjrImg"></div>
+								</div>
+								<div class="beschrijvingPersonage">
+									<b>Paper Towel Roll Jr.</b><br><i>Bean's Show</i>
+								</div>
+							</div>
+							</id>
+							<div id="StemSpeler" class="button"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+	
+		</div>
+		
+		<!-- Over tabs -->
+		
+		<div class="tabsfile" id="tabover">
+			<div class="venster3">
+			<button class="closetab" onClick="closeDiv('tabover')">X</button> 
+				PC - Over
+
+			<div class="folders" id="buttoncontact" onClick="dubbelClick('foldercontact')" ondblClick="openDiv('contact','foldercontact')">
+				<div class="foldername" id="foldercontact">Contact</div>
+			</div>
+				
+			<div class="folders" id="buttongebruiker" onClick="dubbelClick('foldergebruiker')" ondblClick="openDiv('gebruiker','foldergebruiker')">
+				<div class="foldername" id="foldergebruiker">Gebruiker</div>
+			</div>
+				
+			<div class="folders" id="buttoncv" onClick="dubbelClick('foldercv')" ondblClick="openDiv('ceevee','foldercv')">
+				<div class="foldername" id="foldercv">CV</div>
+			</div>	
+
+				<!-- Contact -->
+				
+			<div id="contact">
+				<div class="venster">
+				<button class="closetab" onClick="closeDiv('contact')">X</button>    
+						PC - Over - E-mail    
+					<div class="gegevenspersoon">
+						<div class="foto"></div>
+						<div id="email">gebruiker@.</div>
+						<div id="telefoon">0493466327</div>
+					</div>
+					<div class="bericht">
+						<input type="email" id="emailuser" placeholder="E-mailadres">
+						<input type="text" id="berichtuser" placeholder="Type hier je bericht...">
+						<button class="verzend">Verzenden</button>
+					</div>
+				</div>
+			</div>
+
+				<!-- Gebruiker -->
+				
+			<div class="row" id="gebruiker">	
+				<div class="col-12" id="gebruikerdesktop">
+					<div class="venster">
+					<button class="closetab" onClick="closeDiv('gebruiker')">X</button>    
+						   PC - Over - Gebruiker  
+						<div class="gegevenspersoon">
+						<div class="foto"></div>
+						<div id="stadland">Stad, land</div>
+						<div id="woonplaats">straat postcode</div>
+						</div>
+					<div class="Inleiding">
+								Korte inleiding...
+					</div>
+					</div>
+				</div>
+			</div>
+
+				<!-- CV -->
+
+				<div class="row" id="ceevee">
+					<div class="col-12" id="cv">
+						<div class="venster">
+						<button class="closetab" onClick="closeDiv('ceevee')">X</button>    
+								PC - Over - CV   
+							<div class="cv">
+								<div id="fotocv"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+	    </div>
+		<div id="backgrounddesktop"></div>
+</div>
+	
+	<div class="row-m">
+    <div class="col-m-12">
+	<div class="mobilecontainer">
+			<div id="boventab">
+				<div id="usermobile">
+				<b>REMI B.</b> - HOOFDPAGINA
+					</div>
+				<div id="tijdm" onload="showTime()">
+					</div>
+			</div>
+			<div class="scherm">
+				<div id="werkm">
+					Werk
+					</div>
+				<div id="overm">
+					Over
+					</div>
+				<div id="hulpm">
+					Hulp
+					</div>
+			</div>
+		</div>
+	
+		<div class="buttons">
+		
+		</div>
+	</div>
+</div>  
+</body>
+</html>
