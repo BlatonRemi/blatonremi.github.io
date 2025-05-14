@@ -186,6 +186,15 @@ table {
 		background-repeat: no-repeat;
 		
 	}
+	
+	#tabwerk{
+		position:absolute;
+	}
+	#tabover{
+		margin-left:50em;
+		position: absolute;
+	}
+	
 	.venster{
 		background-color:cornflowerblue;
 		color: white;
@@ -193,7 +202,7 @@ table {
 		height:1.5em;
 		position: absolute;
 		user-select: none;
-		margin-top: 30em;
+		margin-top: 10em;
 	}
 	.venster3{
 		background-color:cornflowerblue;
@@ -451,9 +460,9 @@ table {
 	}
 	
 	.player{
-		margin-top: 1em;
+		margin-top: -1em;
 		height: 10em;
-		border: solid red;
+		/* border: solid red; */
 	}
 	
 	#GroupButtons {

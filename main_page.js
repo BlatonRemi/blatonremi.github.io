@@ -59,7 +59,6 @@ function showTime() {
     
     // Use innerText (or textContent, but avoid setting both)
     document.getElementById('tijd').innerText = time;
-	document.getElementById('tijdm').innerText = time;
     
     setTimeout(showTime, 1000); // Update time every second
 }
@@ -70,3 +69,29 @@ function showTime() {
 window.onload = function() {
         showTime();
     };
+
+['werk1', 'werk2', 'werk3'].forEach(id => {
+    let el = document.getElementById(id);
+    if (!el) return;
+
+    el.style.position = 'absolute'; // Ensure positioning
+    let offsetX, offsetY;
+
+    el.addEventListener('mousedown', (e) => {
+        offsetX = e.clientX - el.getBoundingClientRect().left;
+        offsetY = e.clientY - el.getBoundingClientRect().top;
+
+        function mouseMoveHandler(event) {
+            el.style.transform = `translate(${event.clientX - offsetX}px, ${event.clientY - offsetY}px)`;
+        }
+
+        function mouseUpHandler() {
+            document.removeEventListener('mousemove', mouseMoveHandler);
+            document.removeEventListener('mouseup', mouseUpHandler);
+        }
+
+        document.addEventListener('mousemove', mouseMoveHandler);
+        document.addEventListener('mouseup', mouseUpHandler);
+    });
+});
+
