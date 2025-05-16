@@ -649,7 +649,11 @@ table {
 	
 		/*	Rechter kant - speler */
 	
-	#StemSpeler{
+	#StemSpelerBBlock,
+	#StemSpelerBBot,
+	#StemSpelerDangerS,
+	#StemSpelerDS,
+	#StemSpelerPPTRJ{
 		border: magenta solid;
 		height: 5em;
 		width: 5em;
@@ -657,6 +661,7 @@ table {
 		margin-top: -8em;
 	
 	}
+	
 	
 	/* Tekst, titels & opmaak */
 	
