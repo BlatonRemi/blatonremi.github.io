@@ -517,6 +517,71 @@ table {
 		margin-top:15px;
 	}
 
+	/* GRAVO */
+	.afbeeldingGRAVO{
+			border: #B3B3B3 solid;
+			height:130px;
+			margin: 10px;
+		}
+	
+		/* Foto's GRAVO */
+	#IMGmerkidentiteit{
+			background-image: url("IMG/GRAVO/Merkidentiteit.png");
+			height:110px;
+			margin: 10px 0px 10px 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		border: red 1px;
+		}
+	
+	#IMGcarousselfoto{
+			background-image: url("IMG/GRAVO/Carouselfoto.png");
+			height:110px;
+			margin: 10px 0px 10px 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	
+		#IMGgedicht{
+			background-image: url("IMG/GRAVO/GedichtOntwerp.png");
+			height:110px;
+			margin: 10px 0px 10px 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	
+	#IMGlpcover{
+			background-image: url("IMG/GRAVO/LPCover.jpg");
+			height:110px;
+			margin: 10px 0px 10px 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	
+	#IMGkerstkaart{
+			background-image: url("IMG/GRAVO/Kerstkaartje.jpg");
+			height:110px;
+			margin: 10px 0px 10px 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	
+		#IMGrecept{
+			background-image: url("IMG/GRAVO/ReceptLayout.jpg");
+			height:110px;
+			margin: 10px 0px 10px 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	
+		#IMGlinosnede{
+			background-image: url("IMG/GRAVO/Linosnede ontwerp.png");
+			height:110px;
+			margin: 10px 0px 10px 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	
 	/*	Voice acting */
 	#voiceacting{
 	/*	display: none; */
