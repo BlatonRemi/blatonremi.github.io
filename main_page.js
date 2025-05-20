@@ -95,3 +95,28 @@ window.onload = function() {
     });
 });
 
+	var BBlockSound = new Audio('GELUID/VAGeluid/BBlock.mp3');
+	var BBotSound = new Audio('GELUID/VAGeluid/Boxbot.mp3');
+	var DaSignSound = new Audio('GELUID/VAGeluid/DangerSign.mp3');
+	var DSSound = new Audio('GELUID/VAGeluid/Doorstopper.mp3');
+	var PTRJRsound = new Audio('GELUID/VAGeluid/PaperTowelRollJR.mp3');
+
+function speelBBlock(){
+	BBlockSound.play();
+}
+
+function speelBBot(){
+	BBotSound.play();
+}
+
+function speelDaS(){
+	DaSignSound.play();
+}
+
+function speelDS(){
+	DSSound.play();
+}
+
+function speelPTRJR(){
+	PTRJRsound.play();
+}
