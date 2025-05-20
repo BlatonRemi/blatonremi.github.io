@@ -312,10 +312,13 @@ table {
 	}
 	
 	.foto{
-		margin: 1em 1em 1em 2em;
+		margin: 1em 1em 1em 1.7em;
 		border: solid 1px;
 		height:6em;
 		width:6em;
+		background-image: url("IMG/Remi_Portret.png");
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 	#email{
 		margin-left: 2em;
@@ -367,10 +370,10 @@ table {
 	}
 	
 	#stadland{
-		margin-left: 2em;
+		margin-left: 1.7em;
 	}
 	#woonplaats{
-		margin-left:2em;
+		margin-left:1.7em;
 	}
 	
 	.Inleiding{
@@ -382,6 +385,7 @@ table {
 		position: absolute;
 		border: solid 1px;
 		margin-left:9em;
+		padding: 10px;
 	}
 	
 		.cv{
