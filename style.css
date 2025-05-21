@@ -181,7 +181,7 @@ table {
 	#backgrounddesktop{
 		height: 100vh;
 		width: 100%;
-		background-image: url('img0.jpg');
+		background-image: url('IMG/img0.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		
@@ -312,7 +312,7 @@ table {
 	}
 	
 	.foto{
-		margin: 1em 1em 1em 1.7em;
+		margin: 1em 1em 1em 1.6em;
 		border: solid 1px;
 		height:6em;
 		width:6em;
@@ -321,10 +321,12 @@ table {
 		background-repeat: no-repeat;
 	}
 	#email{
-		margin-left: 2em;
+		margin-left: 2.5em;
+		font-size: 9px;
 	}
 	#telefoon{
-		margin-left:2em;
+		margin-left:2.5em;
+		font-size: 9px;
 	}
 	
 	.bericht{
@@ -638,7 +640,7 @@ table {
 		#bblockImg{
 			background-image: url("IMG/VApers/Pose-B.png");
 			height:110px;
-			margin: 10px 0px 10px 10px;
+			margin: 10px 0px 10px 20px;
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -646,7 +648,7 @@ table {
 	#boxbotImg{
 			background-image: url("IMG/VApers/Boxbot_posenew.webp");
 			height:110px;
-			margin: 10px 0px 10px 10px;
+			margin: 10px 0px 20px 10px;
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -654,7 +656,7 @@ table {
 	#dsignImg{
 			background-image: url("IMG/VApers/Dangersignab.png");
 			height:110px;
-			margin: 10px 0px 10px 10px;
+			margin: 7px 0px 10px 40px;
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -662,7 +664,7 @@ table {
 	#dstopperImg{
 			background-image: url("IMG/VApers/DoorstopperAB.png");
 			height:110px;
-			margin: 10px 0px 10px 10px;
+			margin: 7px 10px 10px 45px;
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -670,7 +672,7 @@ table {
 	#ptrjrImg{
 			background-image: url("IMG/VApers/BS_PTRJ.png");
 			height:110px;
-			margin: 10px 0px 10px 10px;
+			margin: 10px 0px 10px 20px;
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
