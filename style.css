@@ -110,6 +110,7 @@ table {
 		margin:auto;
 		display:block;
 		top:35vh;
+		left:20vw;
 	}
 	
 	.mobilecontainer{
@@ -491,7 +492,7 @@ table {
 	}
 	
 	.foldername{
-		font-family:Tahoma;
+		font-family:"Tahoma", sans-serif;
 		text-align:center;
 		font-size:14px;
 		width:100%;
@@ -516,6 +517,7 @@ table {
 	}
 	
 	.informatie{
+		font-family:"Tahoma", sans-serif;
 		background-color:white;
 		color: black;
 		width:23em;
