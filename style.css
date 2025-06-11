@@ -92,6 +92,11 @@ table {
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 		/* ".row" spreekt alles in de desktop versie aan */
+	
+	b {
+		font-weight: bold
+	}
+	
 	.row{
 		display: none;
 	}
@@ -133,12 +138,12 @@ table {
 	
 	#werkm,
 	#overm{
-		margin-top:2em;
-		width:40%;
-		height:22vh;
+		margin-top:10em;
+		width:60%;
+		height:30vh;
 		border: solid 1px black;
-		margin-left:8em;
-		padding-top: 5.5em;
+		margin-left:6em;
+		padding-top: 4em;
 		text-align: center;
 		
 	}
@@ -638,7 +643,7 @@ table {
 	
 			/* Personage foto's */
 		#bblockImg{
-			background-image: url("IMG/VApers/Pose-B.png");
+			background-image: url("IMG/VoiceActing/Pose-B.png");
 			height:110px;
 			margin: 10px 0px 10px 20px;
 			background-size: contain;
@@ -646,7 +651,7 @@ table {
 		}
 	
 	#boxbotImg{
-			background-image: url("IMG/VApers/Boxbot_posenew.webp");
+			background-image: url("IMG/VoiceActing/Boxbot_posenew.webp");
 			height:110px;
 			margin: 10px 0px 20px 10px;
 			background-size: contain;
@@ -654,7 +659,7 @@ table {
 		}
 	
 	#dsignImg{
-			background-image: url("IMG/VApers/Dangersignab.png");
+			background-image: url("IMG/VoiceActing/Dangersignab.png");
 			height:110px;
 			margin: 7px 0px 10px 40px;
 			background-size: contain;
@@ -662,7 +667,7 @@ table {
 		}
 		
 	#dstopperImg{
-			background-image: url("IMG/VApers/DoorstopperAB.png");
+			background-image: url("IMG/VoiceActing/DoorstopperAB.png");
 			height:110px;
 			margin: 7px 10px 10px 45px;
 			background-size: contain;
@@ -670,7 +675,7 @@ table {
 		}
 	
 	#ptrjrImg{
-			background-image: url("IMG/VApers/BS_PTRJ.png");
+			background-image: url("IMG/VoiceActing/BS_PTRJ.png");
 			height:110px;
 			margin: 10px 0px 10px 20px;
 			background-size: contain;
