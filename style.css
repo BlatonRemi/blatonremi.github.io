@@ -101,13 +101,25 @@ table {
 		display: none;
 	}
 	
+	.venster2{
+		background-color:cornflowerblue;
+		color: white;
+		width:60%;
+		height:1.5em;
+		position: absolute;
+		margin:auto;
+		display:block;
+		top:35vh;
+	}
+	
 	.mobilecontainer{
-		height:75vh;
-		width:80%;
+		height:100vh;
+		width:100vw;
 		border: 1px black solid;
 		position: absolute;
-		margin-top:2.5em;
-		margin-left:3.7em;
+		background-image: url('IMG/img0.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	
 	#boventab{
@@ -116,10 +128,14 @@ table {
 		border: solid 1px black;
 		padding: 0.5em;
 		overflow: auto;
+		background-color: lightblue;
+		display:none;
 	}
 	
 	#usermobile{
 		float: left;
+		background-color: lightblue;
+		display:none;
 	}
 	
 	#tijdm{
@@ -138,10 +154,10 @@ table {
 	
 	#werkm,
 	#overm{
-		margin-top:10em;
+		margin-top:-2em;
 		width:60%;
-		height:30vh;
-		border: solid 1px black;
+		height:0vh;
+
 		margin-left:6em;
 		padding-top: 4em;
 		text-align: center;
@@ -159,6 +175,24 @@ table {
 	
 	.buttons{
 		font-weight: bold;
+	}
+	
+		.closetab{
+		position: relative;
+		float:right;
+		background-color: dodgerblue;
+		
+	}
+	
+		.informatie{
+		background-color:#ece9d8;
+		color: black;
+		margin-top:0.1em;
+		height:12em;
+		position: absolute;
+		border: solid 1px;
+		margin-left:0em;
+		padding: 1.5em 1em 1em 1em;
 	}
 }
 
